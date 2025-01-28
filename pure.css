@@ -1,0 +1,638 @@
+       /* nav */
+
+
+       /* Step2: component*/
+       .navBarSection {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .navBarContainer {
+           background-color: #ffffff;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           padding: 2rem;
+       }
+
+       /* Step4: row */
+       .navBody {
+           /* background-color: #22a235; */
+           width: 1200px;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+       }
+
+       /* Step5: column1*/
+       .navImgBlock {
+           /* background-color: #42f42e; */
+           display: flex;
+           align-items: center;
+           justify-content: start;
+           padding-left: 4rem;
+       }
+
+       /* Step6: subColumn */
+       .navImgBox {
+           /* background-color: #e31212; */
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       /* Step7: contentContainer */
+       .navImgBox img {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: 5rem;
+           width: auto;
+       }
+
+       /* Step5: column2*/
+       .navLinkBlock {
+           /* background-color: #8a2be2; */
+           display: flex;
+           justify-content: flex-start;
+       }
+
+       /* Step6: subColumn */
+       .navLinkBox {
+           /* background-color: #e9f146; */
+           padding-left: 5rem;
+       }
+
+       /* Step7: contentContainer */
+       .navLinks a {
+           font-family: var(--ffSecondary);
+           font-size: 2rem;
+           padding: 1rem 1rem;
+           text-decoration: none;
+           color: #343a40;
+           display: flex;
+           align-items: center;
+           border-right: #343a40;
+       }
+
+       .navLinks li {
+           /* background-color: #eeeeeb; */
+           /* padding: 0rem 1rem; */
+       }
+
+       .navLinks {
+           display: flex;
+           align-items: center;
+           justify-content: flex-start;
+       }
+
+       /* hero */
+
+
+       .heroSection {
+           /* background-color: #7cd882; */
+       }
+
+       /* Step3: componentContainer */
+       .heroContainer {
+           background-color: #ffffff;
+           align-items: center;
+           justify-content: start;
+           text-align: start;
+
+       }
+
+       /* Step4: row */
+       .heroBody {
+           background-color: #ffffff;
+           display: flex;
+           align-items: center;
+           justify-content: start;
+           text-align: flex start;
+           padding: 2rem 2rem;
+       }
+
+       /* Step5: column */
+       .heroBlock {
+           background-color: #ffffff;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           padding: 2rem 2rem;
+       }
+
+       /* Step6: subColumn */
+       .heroBox {
+           background-color: #ffffff;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           padding: 2rem 2rem;
+           /* width: 50%; */
+       }
+
+       /* Step7: contentContainer */
+       .heroBox h1 {
+           background-color: #ffffff;
+           font-family: var(--ffPrimary);
+           font-size: 7rem;
+           width: 70rem;
+           font-weight: 900;
+       }
+
+       /* Step7: contentContainer */
+       .heroBox p {
+           background-color: #ffffff;
+           font-size: 1.5rem;
+           width: 70rem;
+       }
+
+       .heroBox button {
+           background-color: var(--primaryColor);
+           padding: 0.75rem 3rem;
+           font-size: 2rem;
+           color: #ffffff;
+           border: none;
+           margin-top: 1rem;
+       }
+
+       .heroBox button:hover {
+           background-color: black;
+       }
+
+       .img {
+           width: 1200px;
+           height: 100%;
+       }
+
+
+       /*.aboutus*/
+
+
+       .aboutUsSection {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .aboutContainer {
+           background-color: #ffffff;
+       }
+
+       /* Step4: row */
+       .aboutUsBody {
+           background-color: #ffffff;
+       }
+
+       /* Step5: column 1 */
+       .aboutUsImageBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step7: contentContainer 1 */
+       .aboutUsImageBox {
+           background-color: #ffffff;
+           padding-left: 12rem;
+       }
+
+       .aboutUsImageBox img {
+           height: 55rem;
+       }
+
+       /* Step5: column 2 */
+       .aboutUsBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step6: subColumn */
+       .abutUsBox {
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           justify-content: center;
+           text-align: start;
+           /* padding: 0rem 0rem 0rem 3rem; */
+       }
+
+       /* Step7: contentContainer 1 */
+       .abutUsBox h2 {
+           background-color: #ffffff;
+           font-family: var(--ffPrimary);
+           font-size: 4rem;
+           font-weight: 900;
+       }
+
+       /* Step7: contentContainer 2 */
+       .abutUsBox p {
+           background-color: #ffffff;
+           padding: 0rem 20rem 0rem 0rem;
+           font-family: var(--ffSecondary);
+           margin-bottom: 1.5rem;
+       }
+
+       /* Step7: contentContainer 3 */
+       .abutUsBox button {
+           background-color: var(--primaryColor);
+           padding: 7.5px 30px;
+           font-weight: 20px;
+           font-size: 2rem;
+           color: #ffffff;
+           cursor: pointer;
+           border: none;
+       }
+
+       button:hover {
+           background-color: #000000;
+       }
+
+
+       /* .facility */
+
+
+
+       /* Step2:  component */
+       .facility {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .facilityContainer {
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+
+       /* Step4: row */
+       .headingBody {
+           background-color: #ffffff;
+           margin-bottom: 2rem;
+       }
+
+       /* Step5: column */
+       .headingBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step6: subColumn */
+       .HeadingBox {
+           background-color: #ffffff;
+       }
+
+       /* Step7: contentContainer */
+       .HeadingBox img {
+           width: 17rem;
+           height: 4rem;
+       }
+
+       .HeadingBox h2 {
+           font-family: var(--ffPrimary);
+           font-size: 4rem;
+           font-weight: 900;
+       }
+
+       /* Step4: row */
+       .facilityBody {
+           background-color: #ffffff;
+           padding: 0rem 15rem;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+       }
+
+       /* Step5: column */
+       .facilityBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step6: subColumn */
+       .facilityCard {
+           background-color: #ffffff;
+           width: 30rem;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .facilitySection {
+           margin-bottom: 3rem;
+       }
+
+       .facilityImage {
+           margin-bottom: 2rem;
+       }
+
+       .facilityCardBody {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .facilityCard h4 {
+           font-family: var(--ffSecondary);
+           font-size: 2rem;
+       }
+
+       .facilitySection p {
+           font-family: var(--ffSecondary);
+       }
+
+       /* Step2:  component */
+       .menu {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .menuContainer {
+           background-color: #ffffff;
+       }
+
+       /* Step4: row */
+       .headingBody {
+           background-color: #ffffff;
+           width: 1200px;
+       }
+
+       /* Step5: column */
+       .headingBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step6: subColumn */
+       .headingBlock h2 {
+           background-color: #ffffff;
+           font-size: 4rem;
+           font-family: var(--ffPrimary);
+           font-weight: 800;
+       }
+
+       .headingBlock img {
+           /* padding: 1rem rem 0rem 2rem; */
+           width: 18rem;
+           height: 4rem;
+       }
+
+       /* Step4: row */
+       .menuBody {
+           background-color: #ffffff;
+           padding: 0rem 28rem;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+       }
+
+       /* Step5: column */
+       .menuBlock {
+           /* padding: rem 10rem; */
+       }
+
+       .menuCard {
+           padding: 1rem 1.5rem 1rem 1.5rem;
+           font-family: var(--ffSecondary);
+           font-size: 2rem;
+       }
+
+       .menuCardImg {
+           /* height: 10rem; */
+           /* width: auto; */
+       }
+
+       .menuCard p {
+           /* background-color: #f121ea; */
+           font-size: 2rem;
+           font-family: var(--ffSecondary);
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+
+       /* .Gallery */
+
+       .gallery {
+           background-color: #ffffff;
+       }
+
+       .galleryContainer {
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .headingBody {
+           background-color: #ffffff;
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+
+       .headingBlock {
+           background-color: #ffffff;
+       }
+
+       .HeadingSection {
+           background-color: #ffffff;
+       }
+
+       .HeadingSection img {
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .galleryBody {
+           background-color: #ffffff;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+           padding: 0rem 10rem;
+       }
+
+       .galleryBlock {
+           background-color: #ffffff;
+           padding: 1.5rem 1.5rem;
+       }
+
+       .galleryCard {
+           background-color: #ffffff;
+           width: 35rem;
+       }
+
+       .galleryCardHeader {
+           background-color: #ffffff;
+       }
+
+       /* .team */
+
+
+
+       /* Step2:  component */
+       .team {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .teamContainer {
+           background-color: #ffffff;
+
+       }
+
+       /* Step4: row */
+       .headingBody {
+           background-color: #ffffff;
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+
+       /* Step5: column */
+       .headingBlock {
+           background-color: #ffffff;
+       }
+
+       /* Step6: subColumn */
+       .HeadingBox {
+           background-color: #ffffff;
+           font-size: 2.5rem;
+           font-family: var(--ffPrimary);
+           font-weight: 1200;
+       }
+
+       .HeadingBox img {
+           /* padding: 1rem rem 0rem 2rem; */
+           width: 15rem;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       /* Step4: row */
+       .teamBody {
+           background-color: #ffffff;
+           padding: 0rem 27rem;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+       }
+
+       .teamCard p {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .teamCard {
+           padding: 1rem 1.5rem 1rem 1.5rem;
+           font-family: var(--ffSecondary);
+           font-size: 2rem;
+       }
+
+
+
+       /* .form */
+       .contactContainer {
+           background-color: #ffffff;
+       }
+
+       .contactUs {
+           background-color: #ffffff;
+       }
+
+       .headingBody {
+           background-color: #ffffff;
+           width: 100%;
+       }
+
+       .headingBlock {
+           background-color: #ffffff;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .heading {
+           font-family: var(--ffPrimary);
+       }
+
+
+
+       /* .Footer */
+
+
+       .contacticons {
+           background-color: #ffffff;
+       }
+
+       /* Step3: componentContainer*/
+       .iconBody {
+           background-color: #ffffff;
+           padding: 0rem 10rem 5rem 10rem;
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr 1fr;
+       }
+
+       /* Step4: row */
+       .iconBody i {
+           margin-bottom: 4rem;
+       }
+
+       .iconCard {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .cardHeader i {
+           background-color: var(--primaryColor);
+           border: 2rem solid var(--primaryColor);
+           font-size: 4rem;
+           border-radius: 50%;
+           color: #ffffff;
+       }
+
+       .cardBody h6 {
+           font-size: 2rem;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       .cardBody p {
+           background-color: #ffffff;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 2rem;
+       }
+
+       /* Step4: row 2 */
+       .copyRightsBody {
+           /* background-color: #ba4545; */
+           font-style: var(--ffPrimary);
+           font-size: 2rem;
+           /* margin-top: 2rem; */
+           /* padding-top: 2rem; */
+       }
+
+       /* Step5: column */
+       .copyRightsBlock {
+           justify-content: center;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       /* Step6: subColumn */
+       .copyRightsBox {
+           background-color: #ffffff;
+       }
+
+       /* Step7: contentContainer */
+       .copyRightsBox span {
+           color: var(--primaryColor);
+       }
