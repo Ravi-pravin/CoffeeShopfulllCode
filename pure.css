@@ -16,63 +16,49 @@
 
 /* Step2: component*/
 .navBarSection {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .navBarContainer {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
+    /* background-color: #800f0f; */
+    margin-top: 2rem;
 }
 
 /* Step4: row */
 .navBody {
     /* background-color: #22a235; */
-    width: 1200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Step5: column1*/
 .navImgBlock {
-    /* background-color: #42f42e; */
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding-left: 4rem;
+    /* background-color: #ffffff; */
 }
 
 /* Step6: subColumn */
 .navImgBox {
-    /* background-color: #e31212; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #ffffff; */
+    padding-right: 33rem;
 }
 
 /* Step7: contentContainer */
 .navImgBox img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 5rem;
-    width: auto;
+    /* width: auto; */
 }
 
 /* Step5: column2*/
 .navLinkBlock {
-    /* background-color: #8a2be2; */
-    display: flex;
-    justify-content: flex-start;
+    /* background-color: #ffffff; */
 }
 
 /* Step6: subColumn */
-.navLinkBox {
-    /* background-color: #e9f146; */
-    padding-left: 5rem;
+.navLinkBox{
+    /* background-color: #ffffff; */
+    padding-left: 22rem;
 }
 
 /* Step7: contentContainer */
@@ -82,67 +68,75 @@
     padding: 1rem 1rem;
     text-decoration: none;
     color: #343a40;
-    display: flex;
-    align-items: center;
     border-right: #343a40;
 }
-/* Step7: contentContainer */
-.navLinks {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+
+.navLinks li {
+    /* background-color: #ffffff; */
 }
 
+.checkbtn {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 30px;
+    padding: 4px 7px 1px;
+    border: 2px solid #7e7d7d;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
 
-
-              /* hero */
+/* hero */
 
 /* Step1: parentContainer */
-/* already written in style.css */             
+/* already written in style.css */
 
 /* Step2:  component */
 .heroSection {
     /* background-color: #7cd882; */
 }
+
 /* Step3: componentContainer */
 .heroContainer {
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: start;
-    text-align: start;
-
+    /* background-color: #de7d7d; */
+    /* max-width: 1200px;
+    margin: auto; */
+    background-image: url(./assets/images/hero.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
+
 /* Step4: row */
 .heroBody {
-    background-color: #ffffff;
+    /* background-color: #15b789; */
+    padding: 20rem 0rem 0rem 0rem;
+}
+
+/* Step5: column */
+.heroBlock {
+    /* background-color: #d3cb3a; */
+    padding: 2rem 2rem;
     display: flex;
     align-items: center;
     justify-content: start;
-    text-align: flex start;
-    padding: 2rem 2rem;
-}
-/* Step5: column */
-.heroBlock {
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem 2rem;
 }
 
 /* Step6: subColumn */
 .heroBox {
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* background-color: #4646be; */
     padding: 2rem 2rem;
     /* width: 50%; */
 }
 
 /* Step7: contentContainer */
 .heroBox h1 {
-    background-color: #ffffff;
+    /* background-color: #79308b; */
     font-family: var(--ffPrimary);
     font-size: 7rem;
     width: 70rem;
@@ -151,10 +145,11 @@
 
 /* Step7: contentContainer */
 .heroBox p {
-    background-color: #ffffff;
+    /* background-color: #f322db; */
     font-size: 1.5rem;
     width: 70rem;
 }
+
 /* Step7: contentContainer */
 .heroBox button {
     background-color: var(--primaryColor);
@@ -164,10 +159,12 @@
     border: none;
     margin-top: 1rem;
 }
+
 /* Step7: contentContainer */
 .heroBox button:hover {
     background-color: black;
 }
+
 /* Step7: contentContainer */
 .img {
     width: 1200px;
@@ -175,60 +172,70 @@
 }
 
 
-             /*.aboutus*/
+/*.aboutus*/
 
 /* Step1: parentContainer */
 /* already written in style.css */
 
 /* Step2:  component */
 .aboutUsSection {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .aboutContainer {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step4: row */
 .aboutUsBody {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Step5: column 1 */
 .aboutUsImageBlock {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step7: contentContainer 1 */
 .aboutUsImageBox {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding-left: 12rem;
 }
+
 /* Step7: contentContainer 1 */
 .aboutUsImageBox img {
-    height: 55rem;
+    /* background-color: #000000; */
 }
 
 /* Step5: column 2 */
 .aboutUsBlock {
-    background-color: #ffffff;
+    /* background-color: #e67171; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* Step6: subColumn */
 .abutUsBox {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: start;
+    /* background-color: #41d75c; */
     /* padding: 0rem 0rem 0rem 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.aboutUsCardHeader{
+    /* background-color: #cf2e2e; */
+    max-width: fit-content;
 }
 
 /* Step7: contentContainer 1 */
 .abutUsBox h2 {
-    background-color: #ffffff;
+    /* background-color: #d1ce26; */
     font-family: var(--ffPrimary);
     font-size: 4rem;
     font-weight: 900;
@@ -236,14 +243,14 @@
 
 /* Step7: contentContainer 2 */
 .abutUsBox p {
-    background-color: #ffffff;
-    padding: 0rem 20rem 0rem 0rem;
+    /* background-color: #cb10c2; */
+    padding: 0rem 10rem 0rem 0rem;
     font-family: var(--ffSecondary);
     margin-bottom: 1.5rem;
 }
 
 /* Step7: contentContainer 3 */
-.abutUsBox button {
+.abutUsBox .btn {
     background-color: var(--primaryColor);
     padding: 7.5px 30px;
     font-weight: 20px;
@@ -251,14 +258,16 @@
     color: #ffffff;
     cursor: pointer;
     border: none;
+    display: flex;
 }
+
 /* Step7: contentContainer 3 */
-button:hover {
+.btn:hover {
     background-color: #000000;
 }
 
 
-         /* .facility */
+/* .facility */
 
 
 /* Step1: parentContainer */
@@ -266,39 +275,38 @@ button:hover {
 
 /* Step2:  component */
 .facility {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .facilityContainer {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* background-color: #ffffff; */
+    width: 1200px;
+    margin: auto;
 }
 
 /* Step4: row */
 .headingBody {
-    background-color: #ffffff;
+    /* background-color: #f17272; */
     margin-bottom: 2rem;
 }
 
 /* Step5: column */
 .headingBlock {
-    background-color: #ffffff;
+    /* background-color: #d6c333; */
 }
 
 /* Step6: subColumn */
 .HeadingBox {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step7: contentContainer */
 .HeadingBox img {
-    width: 17rem;
+    /* width: 17rem; */
     height: 4rem;
 }
+
 /* Step7: contentContainer */
 .HeadingBox h2 {
     font-family: var(--ffPrimary);
@@ -308,25 +316,21 @@ button:hover {
 
 /* Step4: row */
 .facilityBody {
-    background-color: #ffffff;
-    padding: 0rem 15rem;
+    /* background-color: #ffffff; */
+    /* padding: 0rem 15rem; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /* Step5: column */
 .facilityBlock {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step6: subColumn */
 .facilityCard {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .facilitySection {
@@ -336,25 +340,25 @@ button:hover {
 .facilityImage {
     margin-bottom: 2rem;
 }
+
 /* Step7: contentContainer */
 .facilityCardBody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #ffffff; */
 }
+
 /* Step7: contentContainer */
 .facilityCard h4 {
     font-family: var(--ffSecondary);
     font-size: 2rem;
 }
+
 /* Step7: contentContainer */
 .facilitySection p {
     font-family: var(--ffSecondary);
 }
 
 
-            /*.menu*/
+/*.menu*/
 
 
 /* Step1: parentContainer */
@@ -362,32 +366,39 @@ button:hover {
 
 /* Step2:  component */
 .menu {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .menuContainer {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    width: 1200px;
+    margin: auto;
 }
 
 /* Step4: row */
 .headingBody {
-    background-color: #ffffff;
-    width: 1200px;
+    /* background-color: #822f2f; */
+    /* width: 1200px; */
 }
 
 /* Step5: column */
 .headingBlock {
-    background-color: #ffffff;
+    /* background-color: #9c3d3d; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Step6: subColumn */
 .headingBlock h2 {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-size: 4rem;
     font-family: var(--ffPrimary);
     font-weight: 800;
 }
+
 /* Step7: contentContainer */
 .headingBlock img {
     /* padding: 1rem rem 0rem 2rem; */
@@ -397,8 +408,8 @@ button:hover {
 
 /* Step4: row */
 .menuBody {
-    background-color: #ffffff;
-    padding: 0rem 28rem;
+    /* background-color: #ffffff; */
+    /* padding: 0rem 28rem; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -406,96 +417,96 @@ button:hover {
 /* Step5: column */
 .menuBlock {
     /* padding: rem 10rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 /* Step6: subColumn */
 .menuCard {
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    font-family: var(--ffSecondary);
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 /* Step7: contentContainer */
 .menuCardImg {
-    /* height: 10rem; */
-    /* width: auto; */
+    /* background-color: #000000; */
 }
+
 /* Step7: contentContainer */
 .menuCard p {
     /* background-color: #f121ea; */
     font-size: 2rem;
     font-family: var(--ffSecondary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
-          /* .Gallery */
+/* .Gallery */
 
 
 /* Step1: parentContainer */
 /* already written in style.css */
 
-/* Step2:  component */         
+/* Step2:  component */
 .gallery {
-    background-color: #ffffff;
-}
-/* Step3: componentContainer*/
-.galleryContainer {
-    background-color: #ffffff;
-    
-}
-/* Step4: row */
-.headingBody {
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-/* Step5: column */
-.headingBlock {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-/* Step6: subColumn */
-.headingSection {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-/* Step7: contentContainer */
-.headingSection img {
-    background-color: #ffffff;
-}
-/* Step4: row */
-.galleryBody {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0rem 20rem;
-}
-/* Step5: column */
-.galleryBlock {
-    background-color: #ffffff;
-    padding: 1.5rem 1.5rem;
-}
-/* Step6: subColumn */
-.galleryCard {
-    background-color: #ffffff;
-    width: 35rem;
-}
-/* Step7: contentContainer */
-.galleryCardHeader {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
-            /* .team */
+/* Step3: componentContainer*/
+.galleryContainer {
+    /* background-color: #ffffff; */
+    width: 1200px;
+    margin: auto;
+}
+
+/* Step4: row */
+.headingBody {
+    /* background-color: #ffffff; */
+}
+
+/* Step5: column */
+.headingBlock {
+    /* background-color: #ffffff; */
+}
+
+/* Step6: subColumn */
+.headingSection {
+    /* background-color: #ffffff; */
+    font-family: var(--ffPrimary);
+}
+
+/* Step7: contentContainer */
+.headingSection img {
+    /* background-color: #d63d3d; */
+}
+
+/* Step4: row */
+.galleryBody {
+    /* background-color: #3acc9b; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Step5: column */
+.galleryBlock {
+    /* background-color: #b8b83b; */
+    padding: 1.5rem 1.5rem;
+}
+
+/* Step6: subColumn */
+.galleryCard {
+    /* background-color: #ffffff; */
+}
+
+/* Step7: contentContainer */
+.galleryCardHeader {
+    /* background-color: #ffffff; */
+}
+
+/* .team */
 
 
 /* Step1: parentContainer */
@@ -503,57 +514,50 @@ button:hover {
 
 /* Step2:  component */
 .team {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .teamContainer {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    width: 1200px;
+    margin: auto;
 
 }
 
 /* Step4: row */
 .headingBody {
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr;
+    /* background-color: #ffffff; */
 }
 
 /* Step5: column */
 .headingBlock {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
+
 /* Step6: subColumn */
 .headingBox {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-family: var(--ffPrimary);
     font-size: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-weight: 1200;
 }
+
 /* Step7: contentContainer */
 .HeadingBox img {
     /* padding: 1rem rem 0rem 2rem; */
     width: 15rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Step4: row */
 .teamBody {
-    background-color: #ffffff;
-    padding: 0rem 27rem;
+    /* background-color: #ffffff; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .teamCard p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #ffffff; */
 }
 
 .teamCard {
@@ -565,46 +569,95 @@ button:hover {
 
 
 /* .form */
-.contactContainer {
-    background-color: #ffffff;
+.formContainer {
+    /* background-color: #ffffff; */
 }
 
-.contactUs {
-    background-color: #ffffff;
+.formSection {
+    /* background-color: #ffffff; */
 }
 
-.headingBody {
-    background-color: #ffffff;
-    width: 100%;
-}
-
-.headingBlock {
-    background-color: #ffffff;
+.formBody {
+    /* background-color: #ffffff; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.heading {
-    font-family: var(--ffPrimary);
+.formBlock {
+    /* background-color: #af8888; */
+    width: 100%;
+}
+
+.formBox {
+    /* background-color: #be5454; */
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    width: 80%;
+    overflow: hidden;
+}
+
+.formHeading {
+    /* background-color: #ffffff; */
+    font-size: 3.5rem;
+}
+.formHeading h3{
+    /* margin: none; */
+    font-family: var(--ffSecondary);
+    /* margin-bottom: 2rem; */
+    padding: 1.5rem;
+}
+.formContentSection{
+    font-size: 2rem;
+    /* width: 90%; */
+}
+
+.formContentSection input{
+    font-size: 2.5rem;
+    width: 50rem;
+    border: 1px solid black;
+    padding: 1.5rem;
+    /* width: 160%; */
+}
+.formButton {
+    background-color: var(--primaryColor);
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    color: #ffffff;
+    font-family: var(--ffSecondary);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.formButton:hover {
+    /* color: #56f5f5; */
+    background-color: var(black);
 }
 
 
 
 /* .Footer */
 
+/* Step1: parentContainer */
+/* already written in style.css */
 
+/* Step2:  component */
 .contacticons {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step3: componentContainer*/
 .iconBody {
-    background-color: #ffffff;
-    padding: 0rem 10rem 5rem 10rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* background-color: #ffffff; */
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
 
 /* Step4: row */
@@ -612,34 +665,44 @@ button:hover {
     margin-bottom: 4rem;
 }
 
-.iconCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/* Step5: column */
+.icon1Block {
+    /* background-color: #ffffff; */
+    
 }
 
+/* Step6: subColumn */
+.iconCard {
+    /* background-color: #ffffff; */
+    padding: 0rem 4rem;
+}
+
+/* Step7: contentContainer */
 .cardHeader i {
     background-color: var(--primaryColor);
     border: 2rem solid var(--primaryColor);
     font-size: 4rem;
     border-radius: 50%;
     color: #ffffff;
+    height: 8rem;
+    width: 8rem;
 }
 
+/* Step7: contentContainer */
 .cardBody h6 {
     font-size: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+/* Step7: contentContainer */
 .cardBody p {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #ffffff; */
     font-size: 2rem;
+}
+
+hr{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
 }
 
 /* Step4: row 2 */
@@ -647,21 +710,19 @@ button:hover {
     /* background-color: #ba4545; */
     font-style: var(--ffPrimary);
     font-size: 2rem;
-    /* margin-top: 2rem; */
-    /* padding-top: 2rem; */
+    /* border-top: 2px solid black; */
+    /* width: 1200px; */
 }
 
 /* Step5: column */
 .copyRightsBlock {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* background-color: #ffffff; */
+    margin-top: 2rem;
 }
 
 /* Step6: subColumn */
 .copyRightsBox {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Step7: contentContainer */
